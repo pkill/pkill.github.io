@@ -1,10 +1,11 @@
 # Site settings
-title: pkill.io - I have my thoughts. Here are some of them.
+title: pkill.io - Emphatic drivel and shocking nonesense
 email: pkill@linux.com
 fullname: "Alex Elman"
 jobtitle: "Linux Systems Engineer"
+physical_location: "Austin (the dotfiles capitol of Texas)"
 description: > # this means to ignore newlines until "baseurl:"
-  I contribute to FOSS.
+  Notes on Linux, open source, journalism, security & privacy.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://pkill.io" # the base hostname & protocol for your site
 twitter_username: _pkill
