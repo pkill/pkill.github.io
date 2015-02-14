@@ -1,29 +1,40 @@
 ---
 layout: post
-title:  "A blog with Github Pages and Cloudflare in 5 minutes"
-date:   2015-02-11 22:34:52
+title:  "A blog with Github Pages and Cloudflare in five minutes"
+date:   2015-02-14 14:34:52
 categories: blog
 ---
-For free!
+# Platforms getting in the way
+I have been motivated to publish a blog for years. I have a lot of ideas for content but the hurdle was having to setup a cumbersome blogging platform like [Wordpress][wordpress] or a wallet buster like [Typepad](http://www.typepad.com/pricing). Blogger and tumblr are a lot more streamlined but control over the look and feel is [exasperatingly constrained](https://www.tumblr.com/docs/en/custom_themes). I wanted more flexibility and simplicity. I wanted it to be free. A lot of [prominent](http://getbootstrap.com/) open-source projects were using [GitHub Pages][gh-pages] as their landing page with great success. They were engaging, simple designs that popped.
 
-# Domain provider
+GitHub Pages has fantastic [documention][gh-docs]. Site generation is done with [Jekyll][jekyll-docs], a straightforward template system that I already have some experience with working on [Gitlab][gitlab]. The notion that pushing changes to the upstream remote is the last step in the publishing process and drafts get committed to branches has incredible appeal.
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+I was floored with how quickly the first iteration of my blog came together. It was online in five minutes. My positive experience serves as an appropriate initial post. I'll share the steps I took to get the blog online and minor hurdles I experienced along the way.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+# Requirements
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+I had a few requirements
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+# Go ahead, register a domain
+
+# If you have a Github you're 90% done
+
+# Why SSL terminate?
+
+# Cloudflare's site performance features
+
+# Discussion
+
+# Analysis
+
+# Custom 404 pages
 
 [Building a blog with Jekyll and Github pages]:      http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/
+[gh-docs]: https://help.github.com/categories/github-pages-basics/
+[gh-pages]: https://pages.github.com/
+[gitlab]: https://about.gitlab.com
+[jekyll-docs]: http://jekyllrb.com/docs/home/
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+[wordpress]: https://wordpress.com/
