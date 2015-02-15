@@ -1,5 +1,5 @@
-# Site settings
-title: pkill.io - Emphatic drivel and shocking nonesense
+url: "https://pkill.io" # the base hostname & protocol for your site.
+title: "pkill.io - Emphatic drivel and shocking nonesense"
 email: pkill@linux.com
 fullname: "Alex Elman"
 jobtitle: "Linux Systems Engineer"
@@ -14,3 +14,45 @@ github_username:  pkill
 # Build settings
 highlighter: pygments
 markdown: kramdown
+
+paginate: 3 #articles per page
+paginate_path: /blog/page:num #makes pagination working
+
+
+#contacts
+git: "https://github.com/pkill"
+stackoverflow: "http://stackoverflow.com/users/974060/pkill"
+twitter: "https://twitter.com/_pkill"
+
+#disqus comment
+disqus:
+    shortname: "pkill"
+
+#google analytics
+google:
+    tracking-id: "UA-59435864-1"
+gems:
+  - jekyll-sitemap
+
+# This is used by feed.xml. Uncomment if you want to use it.
+# description: "..."
+
+exclude:
+  - "README.md"
+  - "CHANGELOG.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
