@@ -1,0 +1,38 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="left">
+      <h2>{{ site.fullname }}</h2>
+      <ul class="contact-list">
+          <li>{{ site.jobtitle }}</li>
+          <li>{{ site.physical_location }}</li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <h2>Come find me</h2>
+        <ul class="social-media-list">
+          <li>
+            {% unless site.twitter == "" %}
+            <a id="tw-ic" href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>
+            {% endunless %}
+          </li>
+          <li>
+            {% unless site.git == "" %}
+	    <a id="git-ic" href="{{site.git}}"><i class="fa fa-github"></i></a>	
+            {% endunless %}
+          </li>
+          <li>
+            {% unless site.stackoverflow == "" %}
+            <a id="so-ic" href="{{site.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a>
+            {% endunless %}
+          </li>
+          <li>
+            {% unless site.linkedin == "" %}
+            <a id="ln-ic" href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+            {% endunless %}
+          </li>
+        </ul>
+      </div>
+  </div>
